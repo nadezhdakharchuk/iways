@@ -1,0 +1,639 @@
+/*GLOBAL CLASS FOR INPUTS*/
+.w-100{
+    width: 100% !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #dedede;
+}
+.d-flex{
+    display: flex !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.flex-100{
+    flex: 0 0 100%;
+}
+/*GLOBAL CLASS*/
+.input-iata__results{
+    min-width: 250px;
+    margin-top: 0 !important;
+}
+.input-iata__results::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.input-iata__results::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+.input-iata__results::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg,#5b12cb,#8d57df 34%,#f57acb);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+.input-iata__results::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.form__group_iconed span{
+    padding: 0;
+}
+.form__group_iconed span.input-iata__code{
+    padding-right: 5px;
+}
+.input-iata__city__country{
+    padding-left: 10px !important;
+}
+.input-iata__city__country .input-iata__airport{
+    padding-left: 0 !important;
+}
+.form__group.landing__passenger:first-child{
+    margin-top: 0 !important;
+}
+.landing__passengers{
+    margin-top: 25px;
+}
+.form__label {
+    font-size: 15px;
+}
+.form__sublabel {
+    font-size: 12px;
+}
+.landing__travel-class {
+    margin-top: 30px;
+}
+/*SEARCH PANEL ICONS AND BLOCKS*/
+.input-iata__item{
+    flex-wrap: wrap!important;
+}
+.input-iata__city__country.d-flex .input-iata__airport {
+    color: #b9b9b9;
+    font-weight: 600;
+}
+.airport-icon{
+    position: relative;
+    padding: 5px 5px 5px 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.airport-icon:hover{
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
+}
+.breadcrumbs{
+    padding:0;
+    margin:0;
+    list-style:none;    
+    text-align: center; 
+    font-size: 14px;
+    color: #868686;    
+}
+.breadcrumbs li{
+    display: inline-block;  
+    vertical-align: top;    
+    margin-right: 15px; 
+    position: relative; 
+}
+.breadcrumbs li:after{
+    content:'';
+    position: absolute; 
+    width: 1px; 
+    height: 10px;   
+    background: #868686   ;
+    transform: rotate(20deg);
+    right: -9px;
+    top: 4px;
+}
+.breadcrumbs li:last-child:after{display: none; }
+.breadcrumbs a{
+    color: #868686;
+    text-decoration: none;  
+}
+.airport-icon small,.all__airports{
+    color: #b9b9b9;
+}
+.airport-icon:before{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 21px;
+    height: 21px;
+    background: url("../images/icons/airplane-icon.png");
+    background-size: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.input-iata__item{
+    border: none;
+}
+.airport-icon-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.input-iata__item:last-child .border-bottom{
+    border: none !important;
+}
+
+/* new styles */
+
+.info-section{
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+    padding: 22px 32px 21px !important;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.info-section h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+.info-section h2 span{font-weight: 400;}
+.info-section p{
+    margin: 0 0 15px;
+}
+.info-section ol{
+    color: #5b12cb;
+
+}
+.info-section ol li{text-decoration: underline;}
+.page-route-content .route-prices-table-header,
+.route-prices-histogram header,
+.info-list .heading{
+     text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 0 0 39px;
+    font-weight: 700;
+    color: #333;
+}
+.info-list ul{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    font-size:16px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.info-list ul a{
+    text-decoration: underline;
+    color: #007acc;
+    margin: 0 10px;
+}
+.info-list li{
+    width: 25%;
+    text-align: center;
+}
+.info-list ul a:hover{text-decoration: none;}
+.route-prices-table{
+    max-width: 100%;
+
+    width: 100%;
+}
+.route-prices-table .button{
+    padding: 8px !important;
+    width: 103px;
+}
+.route-prices-table .button i{display: none;}
+.route-prices-table td{
+    width: 20%;
+    padding: 31px 30px;
+    border-bottom: 1px solid #f7f6f6;
+}
+.route-prices-table tr:last-child td{border: none;}
+.route-prices-table tr td:first-child{
+    width: 28%;
+}
+.route-prices-table .price{
+   font-size: 16px;
+   font-weight: 700;
+   color: #601ace;
+}
+.route-prices-table .price .rub{color: #601ace;}
+.footer__highlighted-word{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;        
+}
+.footer__link{
+    font-size: 14px;
+    color: #007acc;
+}
+.info-section.inner{
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    line-height: 24px;
+}
+.cheap_tickets_from_city{
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__block {
+    min-width: 24%;
+    padding-right: 40px;
+}
+.footer{padding-top: 16px;}
+.footer__highlighted-word{
+    min-height: 50px;
+    margin-bottom: 18px;
+}
+.footer__link:first-of-type,
+.footer__link{
+    margin: 0 0 15px;
+}
+.app{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.info-section.route_local_offers{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+.route-prices-histogram .price-columns-wrapper .price-column .pillar.green, .route-prices-histogram .price-columns-wrapper .price-column a.pillar.green {
+    background: #8149d8 !important;
+}
+.app__footer{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.icon{
+    font-size: 1.5em;
+}
+.route-prices-histogram .price-columns-wrapper .price-column .additional-info{
+    background: none; 
+    border-top:     2px solid #eaeaea;  
+}
+.price-columns-holder{
+    width: 100%;    
+    overflow-y: auto; 
+}
+.price-columns-wrapper{
+    padding: 0 28px;
+    /*white-space:nowrap;*/
+}
+/*
+.price-columns-wrapper .month{
+    display: inline-block;  
+    vertical-align: top;    
+    margin-right: -3px; 
+    position: relative; 
+}
+.price-columns-wrapper .month:after{
+    content:'';
+    position: absolute; 
+    width: 1px;
+    height: 199px;  
+    top: 25px; 
+    left: 0; 
+    border-left:    1px dashed #eaeaea;    
+}
+.day{
+    display: block; 
+    text-transform: uppercase;  
+    font-size: 14px ;
+    margin-bottom: 5px; 
+}
+.route-prices-histogram .price-columns-wrapper .price-column{
+    display: block;  
+    -webkit-box-flex: none;
+    width: 168px;   
+flex:none; 
+     }
+.route-prices-histogram .price-columns-wrapper{display: block;  }
+.route-prices-histogram .price-columns-wrapper .price-column .additional-info .carrier-info{
+    height: auto;   
+}
+.route-prices-histogram .price-columns-wrapper .price-column .pillar, .route-prices-histogram .price-columns-wrapper .price-column a.pillar{
+    width: 100px;   
+    max-width: 100%;
+}
+.price-holder{
+    height: 200px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;  
+    align-items: flex-end;
+    justify-content:  center;
+} 
+.month-holder{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; 
+    justify-content: space-between;
+-webkit-box-align: end;
+align-items: flex-end; 
+}
+.month-name{
+    display: block; 
+    background: #fff;
+    font-size: 11px;    
+    text-transform: uppercase;  
+    color: #8a8a8a;
+    padding: 0 0 10px;
+    margin-left: -1px;  
+}
+.weekend{color: #ff0000   ;}*/
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 767px){
+    .page-route-content{
+        padding: 0;
+        margin: 0;
+    }
+    .info-section{
+        margin-bottom: 20px;
+    }
+    .route-prices-table .button{
+        padding: 0 !important;
+    }
+    .route_to_country_prices{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .search-results__form .button {
+        width: 100%;
+    }
+    h2,
+    .info-section h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-route-content .route-prices-table-header, .route-prices-histogram header, .info-list .heading,
+    .info-section h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-route-content .route-prices-table-header, .route-prices-histogram header, .info-list .heading{margin-bottom: 10px;}
+    .info-section{
+        padding: 22px 23px 21px !important;
+    }
+    .info-list ul{
+        display: block;
+    }
+    .info-list li{
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .info-section.route_local_offers{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+.route-prices-histogram .price-columns-wrapper .price-column .pillar, .route-prices-histogram .price-columns-wrapper .price-column a.pillar{
+    width: 32px;
+}
+.info-section.cheap_tickets_from_city{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 14px;
+}
+.route-prices-table .button i{
+    display: inline-block;
+    margin: 0;
+}
+.route-prices-table td{
+    width: 43% !important;
+    padding: 10px !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.route-prices-table .button  span{display: none;}
+.route-prices-table tr td:nth-child(2),
+.route-prices-table tr td:nth-child(3){display: none;}
+.route-prices-table tr td:nth-child(5){width: 43px !important;}
+.route-prices-table .button{
+    width: 28px;
+    height: 28px;
+}
+.footer__links{
+    display: none;
+}
+.footer__block{
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    border-bottom: 1px solid #fff;
+}
+.footer__highlighted-word{
+    min-height: 10px;
+    position: relative;
+}
+.footer__highlighted-word:after{
+    content:'';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #333;
+    right: 0;
+    top: 4px;
+    border-width: 2px 2px 0 0;
+    -moz-transform: rotate(135deg); /* Для Firefox */
+    -ms-transform: rotate(135deg); /* Для IE */
+    -webkit-transform: rotate(135deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(135deg); /* Для Opera */
+    transform: rotate(135deg);
+}
+.open .footer__highlighted-word:after{
+     -moz-transform: rotate(-45deg); /* Для Firefox */
+    -ms-transform: rotate(-45deg); /* Для IE */
+    -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg); /* Для Opera */
+    transform: rotate(-45deg);
+}
+.open .footer__links{display: block;}
+.price-columns-wrapper{
+    padding: 0 15px; 
+}
+.route-prices-histogram .price-columns-wrapper .price-column{
+    width: 20%;    
+}
+.breadcrumbs{display: none; }
+}
+
+/* new styles */
+.schedule-alphabet-list{
+    font-size: 16px;
+    font-weight: 700;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+    padding: 18px 32px 0;
+    border-radius: 5px;
+    margin-bottom: 23px;
+
+}
+.schedule-alphabet-list:after {
+  content: "";
+  flex: auto;
+}
+.airports-list-table{
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.schedule-alphabet-list a{
+    color: #0095e1;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: underline;
+    min-width: 43px;
+    margin-bottom: 17px;
+}
+.heading-row-cell{
+    font-size: 16px;
+    font-weight: 700;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+    padding: 12px 32px 11px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 900;
+    display: block;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.airports-list-table .list{
+    padding:0;
+    margin:0;
+    list-style:none;
+    color: #9f9f9f;
+}
+.airports-list-table .list a{
+    color: #0092e1;
+    text-decoration: underline;
+    text-transform: none;
+    margin-right: 18px;
+    position: relative;
+}
+.airports-list-table .list a:after{
+    content:'';
+    position: absolute;
+    width: 4px;
+    height: 1px;
+    background: #393838;
+    top: 9px;
+    right: -10px;
+}
+.airports-list-table .list a:hover{text-decoration: none;}
+.airports-list-table .list li{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 28px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.app{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 767px){
+    .schedule-alphabet-list a{
+        min-width: 40px;
+    }
+    .schedule-alphabet-list{padding: 18px 0 0 21px;}
+    .heading-row-cell{
+        font-size: 24px;
+         padding:11px 20px 10px;
+         margin-bottom: 16px;
+    }
+    .airports-list-table .list{
+        font-size: 16px;
+        padding: 0 0 0 19px;
+
+    }
+    .airports-list-table .list li{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 16px;
+    }
+}
+#ticket-search-form .search-results__header {
+    display: none;
+}
+.route-page-title h1 {
+    text-align: center;
+    color: #000;
+    font-family: SFUIDisplay-Medium;
+}
+.price-columns-wrapper {
+    overflow: hidden;
+}
+.info-section.general_information,
+.info-section.tickets {
+    line-height: 24px;
+}
+.info-section.general_information h2 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+    .nav {
+        display: flex;
+    }
+    .nav__divider {
+        margin: 0 7px;
+    } 
+    .form__group_toolbox{
+        padding: 0;
+        box-shadow:none;
+    }
+    .route-page-title h1 {
+        text-align: left;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .search-results__form{margin-top: 33px;}
+    .button{height:40px;}
+    .general_information, .info-section.tickets{line-height: 24px;}
+    .general_information h2{text-align: left;}
+    .route-prices-histogram .price-columns-wrapper .price-column{flex: none;}
+    .price-columns-wrapper { padding: 0; }
+    .route-prices-histogram .price-columns-wrapper .price-column .additional-info .carrier-info{ line-height: 18px; color:#878787; }
+    .info-section h2 b {width: 100%;display: block;}
+    .route-prices-table .price { font-size: 13px; text-align: right;}
+}
+.footer__section {
+    justify-content: center;
+}

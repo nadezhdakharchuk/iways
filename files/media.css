@@ -1,0 +1,124 @@
+/*HOMEPAGE responsive for 13dm*/
+@media all and (min-width: 1367px) {
+    .landing__header {
+        padding: 30px 0 10px 0;
+    }
+    .landing__destinations .form__group {
+        padding-bottom: 30px;
+    }
+    .iw-calendars{
+        margin-top: 30px;
+    }
+    .landing__passenger {
+        margin-top: 10px;
+    }
+    .iw-calendar {
+        margin-top: 10px;
+    }
+    .ui-calendar .DayPicker-Day .DayPicker-DayData {
+        padding: 4px 0;
+        height: 35px;
+        width: 35px;
+    }
+    .ui-calendar .DayPicker-DayNumber {
+        font-size: 14px;
+    }
+    .iw-calendar__head {
+        height: 45px;
+    }
+    .ui-calendar .DayPicker-Day {
+        padding: 0;
+    }
+    .ui-calendar .DayPicker-Caption>div {
+        padding-bottom: 15px;
+    }
+    .iw-calendar__body {
+        padding: 5px 70px;
+    }
+    .landing__order {
+        padding-top: 50px;
+    }
+    .DayPicker-wrapper {
+        padding-bottom: 0;
+    }
+    .ui-calendar .DayPicker-Weekday {
+        width: 35px;
+        height: 40px;
+    }
+    .DayPicker-Caption {
+        display: table-caption;
+        margin-bottom: 0;
+    }
+    .ui-calendar .DayPicker-NavButtonCustom {
+        position: absolute;
+        border-radius: 100%;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+    }
+}
+@media all and (max-width: 1366px) {
+    .iw-calendars {
+        margin-top: 0px;
+    }
+    .landing__header {
+        padding: 3px 0 5px 0;
+    }
+    .landing__destinations .form__group {
+        padding-bottom: 10px;
+    }
+    .landing__passenger {
+        margin-top: 4px;
+    }
+    .form__label {
+        font-size: 14px;
+    }
+    .form__sublabel {
+        font-size: 11px;
+    }
+    .iw-calendar {
+        margin-top: 10px;
+    }
+    .ui-calendar .DayPicker-Day .DayPicker-DayData {
+        padding: 4px 0;
+        height: 35px;
+        width: 35px;
+    }
+    .ui-calendar .DayPicker-DayNumber {
+        font-size: 14px;
+    }
+    .iw-calendar__head {
+        height: 45px;
+    }
+    .ui-calendar .DayPicker-Day {
+        padding: 0;
+    }
+    .ui-calendar .DayPicker-Caption>div {
+        padding-bottom: 15px;
+    }
+    .iw-calendar__body {
+        padding: 5px 70px;
+    }
+    .landing__order {
+        padding-top: 15px;
+    }
+    .DayPicker-wrapper {
+        padding-bottom: 0;
+    }
+    .ui-calendar .DayPicker-Weekday {
+        width: 35px;
+        height: 40px;
+    }
+    .DayPicker-Caption {
+        display: table-caption;
+        margin-bottom: 0;
+    }
+    .ui-calendar .DayPicker-NavButtonCustom {
+        position: absolute;
+        border-radius: 100%;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+    }
+}
+
